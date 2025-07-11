@@ -175,6 +175,7 @@ main {
 .form {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 
 }
 
@@ -230,4 +231,37 @@ textarea {
     border-radius: 10px;
     border: none;
     width: 83%;
+}
+
+/* ----footer section styles----*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 428px;
+    background-color: white;
+
+}
+
+footer h1 {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+footer p {
+    width: 531px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-link a {
+    color: rgb(137, 135, 161);
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 100px;
 }
